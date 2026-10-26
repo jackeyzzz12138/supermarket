@@ -1,0 +1,20 @@
+schema_version: "2"
+id: arxiv
+version: 1.0.0
+name: arXiv Search
+description: Search arXiv papers by topic, author, category or submission date, and look up paper metadata by ID.
+author:
+  name: jackeyzzz12138
+homepage: https://info.arxiv.org/help/api/index.html
+repository: https://github.com/felinics/supermarket
+license: Apache-2.0
+category: education-research
+tags: [arxiv, papers, research, search, preprints]
+translations:
+  zh:
+    name: arXiv 论文搜索
+    description: 按主题、作者、分类或提交日期搜索 arXiv 论文，并通过论文 ID 查询元数据。
+  ja:
+    name: arXiv 論文検索
+    description: トピック・著者・分類・投稿日で arXiv 論文を検索し、論文 ID からメタデータを取得します。
+dependencies: [python]
